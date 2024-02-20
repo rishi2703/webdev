@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id ="header">
-        <div class ="container">
+    <div id="header">
+        <div class="container">
             <nav>
                 <img src="images/logo.png" class="logo">
                 <ul>
@@ -19,24 +19,57 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <div class="header-text"></div>
-            <p>UI/UX Desiner</p>
-            <h1>Hi,I'm <span>Rishi</span><br> vijaywargiya From India</h1>
-
-        </div>
-    </div>
-    <div id ="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                <img src="images/user.png" >
-                </div>
-                <div class="about-col-2"></div>
-                <h1>About me</h1>
-                
+            <div class="header-text">
+                <p>UI/UX Desiner</p>
+                <h1>Hi,I'm <span>Rishi</span><br> vijaywargiya From India</h1>
             </div>
         </div>
     </div>
-    
+    <!----------------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sapiente quod vitae repellat, eligendi optio error
+                        recusandae reiciendis quisquam aperiam corrupti
+                        voluptatum magni placeat quam eum eius, molestiae
+                        suscipit! Vel, repudiandae.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab links"onclick="opentab('experinces')"></p>>Expreince</p>
+                        <p class="tab-links"onclick="opentab('education')"></p>>Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skild"></div>
+                    <ul>
+                        <li><span>UI/UX</span><br>Desinging Web/APP interface</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>UI?UX</span><br>Building Andriod/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="expreince">
+                    <ul>
+                        <li><span>2022-current</span><br>UI/UX Design Trainer at IM
+                             Institute</li>
+                        <li><span>2021-2022</span><br>Team lead at StarApp LLC.</li>
+                        <li><span>2018-2021</span><br>UI/UX Design Executive at Coin 
+                            Ltd.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education"></div>
+                    <ul>
+                        <li><span>2018</span><br>UI/UX Design Training At IM Institution</li>
+                        <li><span>2018</span><br>MCA at BUIT  Bhopal</li>
+                        <li><span> 2016</span><br>Bsc(cs) at NSCB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
